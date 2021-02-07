@@ -95,7 +95,7 @@ export default function Context() {
   return (
     <div id="context">
       <div className="titleDiv" id="titleDiv">
-        <h1 id="title" className="title"></h1>
+        <h1 id="title" className="title">AM I  A REAL DEVELOPER</h1>
       </div>
       <div id="quiz"></div>
     </div>
