@@ -1,10 +1,16 @@
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       Are You Real Developer
-      <div className="footer">Footer</div>
+      <div className="footer">
+        <a class="navbar-brand">
+          <i className="far fa-snowflake" aria-hidden="true"></i>
+          Created By Faiza Fiaz
+          <i className="far fa-snowflake" aria-hidden="true"></i>
+        </a>
+      </div>
     </div>
   );
 }

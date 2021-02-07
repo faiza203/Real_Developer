@@ -9,8 +9,26 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: rgb(131, 127, 127);
   color: white;
   text-align: center;
-  padding: 0.5em 0;
+  padding: 1em 0;
+  font-style: italic;
+  font-family: "Font Awesome 5 Free";
+}
+
+.footer i {
+  margin: 0 5px;
+  animation: rot 2s linear infinite;
+}
+.footer:hover {
+  color: black;
+}
+@keyframes rot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
