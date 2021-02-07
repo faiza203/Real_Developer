@@ -24,6 +24,13 @@
 .footer:hover {
   color: black;
 }
+
+.title {
+  color: rgb(151, 56, 245);
+  font-size: 2em;
+  position: relative;
+  text-transform: capitalize;
+}
 @keyframes rot {
   0% {
     transform: rotate(0deg);
@@ -31,4 +38,9 @@
   100% {
     transform: rotate(360deg);
   }
+}
+#upperTitleFirst {
+  height: 0.1em;
+  background-color: rgb(151, 56, 245);
+  display: block;
 }
