@@ -90,7 +90,7 @@ export default function Context() {
     document.getElementById("title").classList.add("borderLeft");
   }, 2400);
   setTimeout(function () {
-    document.getElementById("quiz").innerHTML = "<button className='takeQuiz'>Take Quiz</button>";
+    document.getElementById("quiz").innerHTML = "<button class='takeQuiz'>Take Quiz</button>";
   }, 2500);
   return (
     <div id="context">

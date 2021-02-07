@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: brandon-grotesque, sans-serif;
 }
 .footer {
   position: fixed;
@@ -25,6 +26,9 @@
   color: black;
 }
 
+.titleDiv {
+  border-radius: 5px;
+}
 .title {
   color: rgb(151, 56, 245);
   font-size: 3em;
@@ -39,6 +43,7 @@
     rgb(0 255 165) 9px 9px 0px, rgb(0 255 165) 10px 10px 0px;
   font-weight: 800;
   font-style: italic;
+  border-radius: 5px;
 }
 @keyframes rot {
   0% {
@@ -67,10 +72,36 @@
 }
 .borderRight {
   border-right: 10px solid rgb(0, 255, 165);
+  margin-bottom: -30px;
 }
 .borderBottom {
   border-bottom: 10px solid rgb(0, 255, 165);
 }
 .borderLeft {
   border-left: 10px solid rgb(0, 255, 165);
+}
+
+#quiz {
+  text-align: center;
+}
+
+.takeQuiz {
+  margin-top: 3em;
+  font-family: pinopolis;
+  font-weight: bold;
+  font-size: 1.5em;
+  border: 0.25em solid rgb(151, 56, 245);
+  padding: 0.5em;
+  color: rgb(51, 51, 51);
+  letter-spacing: 0.05em;
+  min-width: 8em;
+  margin-bottom: 1em;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.takeQuiz:hover {
+  color: #ffffff;
+  background-color: rgb(151, 56, 245);
+  cursor: pointer;
 }
