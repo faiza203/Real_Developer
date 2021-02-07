@@ -1,5 +1,6 @@
 export default function title() {
   let title;
+
   setTimeout(function () {
     title = "A";
     document.getElementById("title").innerText = title;
@@ -28,41 +29,41 @@ export default function title() {
     title = "Am I Real";
     document.getElementById("title").innerText = title;
   }, 1400);
-    setTimeout(function () {
-      title = "Am I Real D";
-      document.getElementById("title").innerText = title;
-    }, 1600);
-    setTimeout(function () {
-      title = "Am I Real De";
-      document.getElementById("title").innerText = title;
-    }, 1800);
-    setTimeout(function () {
-      title = "Am I Real Dev";
-      document.getElementById("title").innerText = title;
-    }, 2000);
-    setTimeout(function () {
-      title = "Am I Real Deve";
-      document.getElementById("title").innerText = title;
-    }, 2200);
-    setTimeout(function () {
-      title = "Am I Real Devel";
-      document.getElementById("title").innerText = title;
-    }, 2400);
-    setTimeout(function () {
-      title = "Am I Real Develo";
-      document.getElementById("title").innerText = title;
-    }, 2600);
-    setTimeout(function () {
-      title = "Am I Real Develop";
-      document.getElementById("title").innerText = title;
-    }, 2800);
-    setTimeout(function () {
-      title = "Am I Real Develope";
-      document.getElementById("title").innerText = title;
-    }, 3000);
-    setTimeout(function () {
-      title = "Am I Real Developer";
-      document.getElementById("title").innerText = title;
-    }, 3200);
+  setTimeout(function () {
+    title = "Am I Real D";
+    document.getElementById("title").innerText = title;
+  }, 1600);
+  setTimeout(function () {
+    title = "Am I Real De";
+    document.getElementById("title").innerText = title;
+  }, 1800);
+  setTimeout(function () {
+    title = "Am I Real Dev";
+    document.getElementById("title").innerText = title;
+  }, 2000);
+  setTimeout(function () {
+    title = "Am I Real Deve";
+    document.getElementById("title").innerText = title;
+  }, 2200);
+  setTimeout(function () {
+    title = "Am I Real Devel";
+    document.getElementById("title").innerText = title;
+  }, 2400);
+  setTimeout(function () {
+    title = "Am I Real Develo";
+    document.getElementById("title").innerText = title;
+  }, 2600);
+  setTimeout(function () {
+    title = "Am I Real Develop";
+    document.getElementById("title").innerText = title;
+  }, 2800);
+  setTimeout(function () {
+    title = "Am I Real Develope";
+    document.getElementById("title").innerText = title;
+  }, 3000);
+  setTimeout(function () {
+    title = "Am I Real Developer";
+    document.getElementById("title").innerText = title;
+  }, 3200);
   return <h1 id="title"></h1>;
 }
