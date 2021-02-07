@@ -1,4 +1,4 @@
-export default function title() {
+export default function Context() {
   let title;
 
   setTimeout(function () {
@@ -89,10 +89,11 @@ export default function title() {
   setTimeout(function () {
     document.getElementById("title").classList.add("borderLeft");
   }, 2400);
-
   return (
-    <div className="titleDiv" id="titleDiv">
-      <h1 id="title" className="title"></h1>
+    <div id="context">
+      <div className="titleDiv" id="titleDiv">
+        <h1 id="title" className="title"></h1>
+      </div>
     </div>
   );
 }
