@@ -105,3 +105,16 @@
   background-color: rgb(151, 56, 245);
   cursor: pointer;
 }
+@media (max-width: 700px) {
+  .title {
+    font-size: 2em;
+    padding: 40px;
+    text-shadow: rgb(0 255 165) 1px 1px 0px, rgb(0 255 165) 2px 2px 0px,
+      rgb(0 255 165) 3px 3px 0px, rgb(0 255 165) 4px 4px 0px,
+      rgb(0 255 165) 5px 5px 0px, rgb(0 255 165) 6px 6px 0px;
+  }
+
+  .borderRight {
+    margin-bottom: -30px;
+  }
+}
