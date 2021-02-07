@@ -89,11 +89,15 @@ export default function Context() {
   setTimeout(function () {
     document.getElementById("title").classList.add("borderLeft");
   }, 2400);
+  setTimeout(function () {
+    document.getElementById("quiz").innerHTML = "<button className='takeQuiz'>Take Quiz</button>";
+  }, 2500);
   return (
     <div id="context">
       <div className="titleDiv" id="titleDiv">
         <h1 id="title" className="title"></h1>
       </div>
+      <div id="quiz"></div>
     </div>
   );
 }
