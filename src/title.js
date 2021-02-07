@@ -4,76 +4,95 @@ export default function title() {
   setTimeout(function () {
     title = "A";
     document.getElementById("title").innerText = title;
-  }, 200);
+  }, 100);
   setTimeout(function () {
     title = "AM";
     document.getElementById("title").innerText = title;
-  }, 400);
+  }, 200);
   setTimeout(function () {
     title = "AM I";
     document.getElementById("title").innerText = title;
+  }, 300);
+  setTimeout(function () {
+    title = "AM I A R";
+    document.getElementById("title").innerText = title;
+  }, 400);
+  setTimeout(function () {
+    title = "AM I A RE";
+    document.getElementById("title").innerText = title;
+  }, 500);
+  setTimeout(function () {
+    title = "AM I A REA";
+    document.getElementById("title").innerText = title;
   }, 600);
   setTimeout(function () {
-    title = "AM I R";
+    title = "AM I A REAL";
     document.getElementById("title").innerText = title;
+  }, 700);
+  setTimeout(function () {
+    title = "AM I A REAL <br /> D";
+    document.getElementById("title").innerHTML = title;
   }, 800);
   setTimeout(function () {
-    title = "AM I RE";
-    document.getElementById("title").innerText = title;
+    title = "AM I A REAL <br /> DE";
+    document.getElementById("title").innerHTML = title;
+  }, 900);
+  setTimeout(function () {
+    title = "AM I A REAL <br /> DEV";
+    document.getElementById("title").innerHTML = title;
   }, 1000);
   setTimeout(function () {
-    title = "AM I REa";
-    document.getElementById("title").innerText = title;
+    title = "AM I A REAL <br /> DEVE";
+    document.getElementById("title").innerHTML = title;
+  }, 1100);
+  setTimeout(function () {
+    title = "AM I A REAL <br /> DEVEL";
+    document.getElementById("title").innerHTML = title;
   }, 1200);
   setTimeout(function () {
-    title = "AM I REal";
-    document.getElementById("title").innerText = title;
+    title = "AM I A REAL <br /> DEVELO";
+    document.getElementById("title").innerHTML = title;
+  }, 1300);
+  setTimeout(function () {
+    title = "AM I A REAL <br /> DEVELOP";
+    document.getElementById("title").innerHTML = title;
   }, 1400);
   setTimeout(function () {
-    title = "AM I REal <br /> D";
+    title = "AM I A REAL <br /> DEVELOPE";
+    document.getElementById("title").innerHTML = title;
+  }, 1500);
+  setTimeout(function () {
+    title = "AM I A REAL <br /> DEVELOPER";
     document.getElementById("title").innerHTML = title;
   }, 1600);
   setTimeout(function () {
-    title = "AM I REal <br /> De";
-    document.getElementById("title").innerHTML = title;
+    document.getElementById("titleDiv").classList.add("borderTopPurple");
+  }, 1700);
+  setTimeout(function () {
+    document.getElementById("title").classList.add("borderTop");
   }, 1800);
   setTimeout(function () {
-    title = "AM I REal <br /> Dev";
-    document.getElementById("title").innerHTML = title;
+    document.getElementById("titleDiv").classList.add("borderRightPurple");
+  }, 1900);
+  setTimeout(function () {
+    document.getElementById("title").classList.add("borderRight");
   }, 2000);
   setTimeout(function () {
-    title = "AM I REal <br /> Deve";
-    document.getElementById("title").innerHTML = title;
+    document.getElementById("titleDiv").classList.add("borderBottomPurple");
+  }, 2100);
+  setTimeout(function () {
+    document.getElementById("title").classList.add("borderBottom");
   }, 2200);
   setTimeout(function () {
-    title = "AM I REal <br /> Devel";
-    document.getElementById("title").innerHTML = title;
+    document.getElementById("titleDiv").classList.add("borderLeftPurple");
+  }, 2300);
+  setTimeout(function () {
+    document.getElementById("title").classList.add("borderLeft");
   }, 2400);
-  setTimeout(function () {
-    title = "AM I REal <br /> Develo";
-    document.getElementById("title").innerHTML = title;
-  }, 2600);
-  setTimeout(function () {
-    title = "AM I REal <br /> Develop";
-    document.getElementById("title").innerHTML = title;
-  }, 2800);
-  setTimeout(function () {
-    title = "AM I REal <br /> Develope";
-    document.getElementById("title").innerHTML = title;
-  }, 3000);
-  setTimeout(function () {
-    title = "AM I REal <br /> Developer";
-    document.getElementById("title").innerHTML = title;
-  }, 3200);
-  setTimeout(function () {
-    document.getElementById("upperTitle").innerHTML =
-      '<span id="upperTitleFirst" />  ';
-  }, 3500);
-  REturn (
-    <div classNAMe="titleDiv">
-      <div id="upperTitle"></div>
-      <h1 id="title" classNAMe="title"></h1>
-      <div id="bottomTitle"></div>
+
+  return (
+    <div className="titleDiv" id="titleDiv">
+      <h1 id="title" className="title"></h1>
     </div>
   );
 }

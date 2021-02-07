@@ -27,9 +27,18 @@
 
 .title {
   color: rgb(151, 56, 245);
-  font-size: 2em;
+  font-size: 3em;
   position: relative;
   text-transform: capitalize;
+  padding: 1em;
+  margin: 10px;
+  text-shadow: rgb(0 255 165) 1px 1px 0px, rgb(0 255 165) 2px 2px 0px,
+    rgb(0 255 165) 3px 3px 0px, rgb(0 255 165) 4px 4px 0px,
+    rgb(0 255 165) 5px 5px 0px, rgb(0 255 165) 6px 6px 0px,
+    rgb(0 255 165) 7px 7px 0px, rgb(0 255 165) 8px 8px 0px,
+    rgb(0 255 165) 9px 9px 0px, rgb(0 255 165) 10px 10px 0px;
+  font-weight: 800;
+  font-style: italic;
 }
 @keyframes rot {
   0% {
@@ -39,8 +48,29 @@
     transform: rotate(360deg);
   }
 }
-#upperTitleFirst {
-  height: 0.1em;
-  background-color: rgb(151, 56, 245);
-  display: block;
+
+.borderTopPurple {
+  border-top: 0.7em solid rgb(151, 56, 245);
+}
+.borderRightPurple {
+  border-right: 0.7em solid rgb(151, 56, 245);
+}
+.borderBottomPurple {
+  border-bottom: 0.7em solid rgb(151, 56, 245);
+}
+.borderLeftPurple {
+  border-left: 0.7em solid rgb(151, 56, 245);
+}
+
+.borderTop {
+  border-top: 10px solid rgb(0, 255, 165);
+}
+.borderRight {
+  border-right: 10px solid rgb(0, 255, 165);
+}
+.borderBottom {
+  border-bottom: 10px solid rgb(0, 255, 165);
+}
+.borderLeft {
+  border-left: 10px solid rgb(0, 255, 165);
 }
