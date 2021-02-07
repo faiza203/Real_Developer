@@ -1,9 +1,9 @@
 import "./App.css";
-
+import Title from "./title";
 function App() {
   return (
     <div className="App">
-      <h1 id="title"></h1>
+      <Title />
       <div className="footer">
         <a class="navbar-brand">
           <i className="far fa-snowflake" aria-hidden="true"></i>
