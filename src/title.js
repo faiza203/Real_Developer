@@ -1,3 +1,5 @@
+import {  Link } from 'react-router-dom';
+
 export default function Title() {
   let title;
   setTimeout(function () {
@@ -95,13 +97,13 @@ export default function Title() {
   }, 2500);
 
   return (
-    <div>
+    <div id="Home">
       <div className="titleDiv" id="titleDiv">
         <h1 id="title" className="title">
           AM I A REAL DEVELOPER
         </h1>
       </div>
-      <div id="quiz"></div>
+      <Link to="Quiz" id="quiz"></Link>
     </div>
   );
 }
