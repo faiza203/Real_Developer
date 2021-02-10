@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Fail() {
   return (
-    <div>
+    <div id="result">
       <h1 className="title">NO WORRIES!</h1>
       <h2>It's ok to not be a developer.</h2>
       <p>
