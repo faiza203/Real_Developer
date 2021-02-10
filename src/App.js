@@ -1,17 +1,18 @@
 import "./App.css";
-import Context from "./title";
+import Home from "./pages/Home";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
+import Footer from "./footer";
 function App() {
   return (
     <Router>
       <div>
         <Switch>
           <Route path="/">
-            <Context />
+            <Home />
           </Route>
         </Switch>
       </div>
+      <Footer />
     </Router>
   );
 }

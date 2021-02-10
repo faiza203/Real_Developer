@@ -1,7 +1,4 @@
-import { useState } from "react";
-import Quiz from "./quiz";
-
-export default function Context() {
+export default function Title() {
   let title;
   setTimeout(function () {
     title = "A";
@@ -97,12 +94,14 @@ export default function Context() {
     ).innerHTML = `<button class='takeQuiz' id="takeQuiz">Take Quiz</button>`;
   }, 2500);
 
-return  <div id="context">
-    <div className="titleDiv" id="titleDiv">
-      <h1 id="title" className="title">
-        AM I A REAL DEVELOPER
-      </h1>
+  return (
+    <div>
+      <div className="titleDiv" id="titleDiv">
+        <h1 id="title" className="title">
+          AM I A REAL DEVELOPER
+        </h1>
+      </div>
+      <div id="quiz"></div>
     </div>
-    <div id="quiz"></div>
-  </div>;
+  );
 }

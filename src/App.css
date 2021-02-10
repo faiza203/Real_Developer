@@ -7,13 +7,15 @@
 }
 .footer {
   position: fixed;
+  height: 1.5em;
   left: 0;
   bottom: 0;
+  font-size: 25px;
   width: 100%;
   background-color: rgb(131, 127, 127);
   color: white;
   text-align: center;
-  padding: 1em 0;
+  padding: 1em 0 0.5em 0;
   font-style: italic;
   font-family: "Font Awesome 5 Free";
 }
