@@ -1,21 +1,24 @@
 import { useState } from "react";
 import questions from "../question.json";
-
+import Result from "./Result";
 export default function Quiz() {
   let [questionNo, setQuestionNo] = useState(1);
-  let [no, setNo] = useState(0);
+  let [marks, setMarks] = useState(0);
   let addNo = () => {
-    setQuestionNo((questionNo += 1));
-    setNo((no += 1));
-    document.getElementById("question").innerText = questions[questionNo];
-    return "added";
+    nextQuestion();
+    setMarks((marks += 1));
   };
-  console.log(questionNo, no, questions[questionNo]);
+  let nextQuestion = () => {
+    setQuestionNo((questionNo += 1));
+  };
   return questionNo < 8 ? (
     <div>
-      <h1 id="question">{questions[questionNo]}</h1>
+      <h1>#{questionNo}</h1>
+      <p>{questions[questionNo]}</p>
       <button onClick={addNo}>Yep</button>
-      <button>Nope</button>
+      <button onClick={nextQuestion}>Nope</button>
     </div>
-  ) : null;
+  ) : (
+    <Result marks={marks} />
+  );
 }
