@@ -1,15 +1,18 @@
 import "./App.css";
 import Context from "./title";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
 function App() {
   return (
-    <div className="App">
-      <Context />
-      <div className="footer">
-        <i className="far fa-snowflake" aria-hidden="true"></i>
-        Created By Faiza Fiaz
-        <i className="far fa-snowflake" aria-hidden="true"></i>
+    <Router>
+      <div>
+        <Switch>
+          <Route path="/">
+            <Context />
+          </Route>
+        </Switch>
       </div>
-    </div>
+    </Router>
   );
 }
 
