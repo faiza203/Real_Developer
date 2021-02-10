@@ -30,7 +30,6 @@
 
 .titleDiv {
   border-radius: 5px;
-  border: 0.7em solid white;
 }
 .title {
   color: rgb(151, 56, 245);
@@ -45,7 +44,6 @@
   font-weight: 800;
   font-style: italic;
   border-radius: 5px;
-  border: 0.7em solid white;
 }
 
 @keyframes rot {
