@@ -1,8 +1,8 @@
-import "./App.css";
+import "./css/App.css";
 import Home from "./pages/Home";
 import Quiz from "./pages/Quiz";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Footer from "./footer";
+import Footer from "./components/Footer";
 function App() {
   return (
     <Router>

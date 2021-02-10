@@ -1,6 +1,7 @@
 import { useState } from "react";
-import questions from "../question.json";
-import Result from "./Result";
+import questions from "../json/Question.json";
+import Result from "../components/Result";
+
 export default function Quiz() {
   let [questionNo, setQuestionNo] = useState(1);
   let [marks, setMarks] = useState(0);
