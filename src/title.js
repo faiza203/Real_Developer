@@ -1,4 +1,4 @@
-import {  Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 export default function Title() {
   let title;
@@ -70,26 +70,26 @@ export default function Title() {
     document.getElementById("titleDiv").classList.add("borderTopPurple");
   }, 1700);
   setTimeout(function () {
-    document.getElementById("title").classList.add("borderTop");
-  }, 1800);
-  setTimeout(function () {
-    document.getElementById("titleDiv").classList.add("borderRightPurple");
-  }, 1900);
+    document.getElementById("title").classList.add("borderBottom");
+  }, 1750);
   setTimeout(function () {
     document.getElementById("title").classList.add("borderRight");
+  }, 1800);
+  setTimeout(function () {
+    document.getElementById("titleDiv").classList.add("borderLeftPurple");
+  }, 1950);
+  setTimeout(function () {
+    document.getElementById("title").classList.add("borderTop");
   }, 2000);
   setTimeout(function () {
     document.getElementById("titleDiv").classList.add("borderBottomPurple");
-  }, 2100);
-  setTimeout(function () {
-    document.getElementById("title").classList.add("borderBottom");
-  }, 2200);
-  setTimeout(function () {
-    document.getElementById("titleDiv").classList.add("borderLeftPurple");
-  }, 2300);
+  }, 2050);
   setTimeout(function () {
     document.getElementById("title").classList.add("borderLeft");
-  }, 2400);
+  }, 2100);
+  setTimeout(function () {
+    document.getElementById("titleDiv").classList.add("borderRightPurple");
+  }, 2150)
   setTimeout(function () {
     document.getElementById(
       "quiz"

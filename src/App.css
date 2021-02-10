@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 70vh;
   font-family: brandon-grotesque, sans-serif;
 }
 .footer {
@@ -30,6 +30,7 @@
 
 .titleDiv {
   border-radius: 5px;
+  border: 0.7em solid white;
 }
 .title {
   color: rgb(151, 56, 245);
@@ -40,13 +41,13 @@
   margin: 10px;
   text-shadow: rgb(0 255 165) 1px 1px 0px, rgb(0 255 165) 2px 2px 0px,
     rgb(0 255 165) 3px 3px 0px, rgb(0 255 165) 4px 4px 0px,
-    rgb(0 255 165) 5px 5px 0px, rgb(0 255 165) 6px 6px 0px,
-    rgb(0 255 165) 7px 7px 0px, rgb(0 255 165) 8px 8px 0px,
-    rgb(0 255 165) 9px 9px 0px, rgb(0 255 165) 10px 10px 0px;
+    rgb(0 255 165) 5px 5px 0px, rgb(0 255 165) 6px 6px 0px;
   font-weight: 800;
   font-style: italic;
   border-radius: 5px;
+  border: 0.7em solid white;
 }
+
 @keyframes rot {
   0% {
     transform: rotate(0deg);
@@ -74,7 +75,6 @@
 }
 .borderRight {
   border-right: 10px solid rgb(0, 255, 165);
-  margin-bottom: -30px;
 }
 .borderBottom {
   border-bottom: 10px solid rgb(0, 255, 165);
@@ -107,7 +107,7 @@
   background-color: rgb(151, 56, 245);
   cursor: pointer;
 }
-@media (max-width: 700px) {
+@media (max-width: 1200px) {
   .title {
     font-size: 2em;
     padding: 40px;
@@ -121,7 +121,8 @@
   }
 }
 
-
-#Home{
+#Home {
   text-align: center;
+  height: 10em;
+  margin-bottom: 4em;
 }
