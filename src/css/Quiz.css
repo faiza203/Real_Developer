@@ -1,0 +1,21 @@
+#QuestionDiv {
+  text-align: center;
+}
+
+#questionNo {
+  font-size: 4em;
+  color: rgb(97, 95, 95);
+  font-family: brandon-grotesque;
+  margin-bottom: 1px;
+}
+
+#question {
+  font-size: 20px;
+  font-family: monospace;
+  margin: 0 7em;
+}
+
+#QuestionDiv button {
+  margin: 1em;
+}
+
