@@ -1,4 +1,4 @@
-export default function Pass() {
+export default function Pass({marks}) {
   return (
     <div>
       <h1 className="title">CONGRATS!</h1>

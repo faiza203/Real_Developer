@@ -12,7 +12,7 @@ export default function Fail() {
       <a href="https://codecademy.com/">
         <button className="takeQuiz">Check out Codecademy 🚀</button>
       </a>
-      <a href="https://twitter.com/intent/tweet?text=">
+      <a href="https://twitter.com/intent/tweet?text=https://am-i-a-real-developer.herokuapp.com/ Your Marks Are Good ">
         <button className="takeQuiz">Share on the twitters ✌️️</button>
       </a>
     </div>
